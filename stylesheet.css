@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fffaf0;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  min-height: 100vh; 
+  flex-direction: column; 
+  text-align: center; 
+}
+
+.poster h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.poster p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+
+button {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #e18d7e;
+}
+
+
+marquee {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #f8b400;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fffaf0;
+}
+
+
+header {
+  background-color: #f8b400;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+header nav {
+  margin-top: 1rem;
+}
+
+header nav a {
+  margin: 0 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration:underline;
+}
+
+#menu {
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.menu-category {
+  margin-bottom: 2rem;
+  max-width: 100%;
+}
+
+.menu-category h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: #f8b400;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-evenly; 
+  gap: 1rem;
+  padding: 1rem 0;
+  align-items: center;
+  overflow: hidden; 
+}
+
+
+.menu-items::-webkit-scrollbar {
+  height: 8px;
+}
+
+.menu-items::-webkit-scrollbar-thumb {
+  background-color: #f8b400;
+  border-radius: 5px;
+}
+
+.menu-items::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+}
+
+.menu-item {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  min-width: 200px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: scale(1.05);
+}
+
+.menu-item h4 {
+  margin-bottom: 0.5rem;
+}
+
+.menu-item .add-btn {
+  margin: 20px;
+  padding: 0.5rem 1rem;
+  background-color: #f8b400;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+
+}
+
+.menu-item .add-btn:hover {
+  background-color: #f79f00;
+}
+
+.menu-item .count {
+  display: inline-block;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  color: #fafafa;
+  font-weight: bold;
+}
+
+
+footer {
+  background-color: #f8b400;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+
+#about, #contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 5rem;
+}
+
+#about p, #contact p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #f8b400;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social-links a:hover {
+  color: #f79f00;
+}
+
+.social-links i {
+  font-size: 1.8rem;
+}
+
+#order-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.order-btn {
+  padding: 10px 20px;
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.menu-item {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.menu-item.Dark-Chocolate {
+  background-image:url('dark-chocolate-bg.jpg');
+}
+
+.menu-item.Milk-Chocolate {
+  background-image:url('milk-chocolate-bg.jpg')
+}
+
+.menu-item.White-Chocolate {
+  background-image: url('white-chocolate-bg.jpg'); 
+}
+
+.menu-item.Hot-Chocolate-drink {
+  background-image: url('hot-chocolate-bg.jpg'); 
+}
+
+.menu-item.Hazel-nut-Hot-chocolate-drink {
+  background-image: url('hazelnut-chocolate-bg.webp'); 
+}
+
+
+.menu-item.Blueberry-Muffin {
+  background-image: url('blueberry-muffin-bg.jpg');
+}
+
+.menu-item.Chocolate-Chip-Muffin {
+  background-image: url('chocolate-chip-muffin-bg.jpg');
+}
+.menu-item.Plum-Muffin {
+  background-image: url('plum-muffin-bg.jpg');
+}
+.menu-item.Banana-Nut-Muffin {
+  background-image: url('Banana-Muffin-bg.jpg');
+}
+.menu-item.Black-Forest {
+  background-image: url('black forest.jpg');
+}
+.menu-item.Vanilla-Cake {
+  background-image: url('vanilla cake.webp');
+}
+.menu-item.Red-Velvet-Cake {
+  background-image: url('redvelvet cake.jpg');
+}
+.menu-item.White-Forest {
+  background-image: url('white forest.jpg');
+}
+
+.menu-item.Veg-Puff{
+  background-image: url('veg puffs.jpg');
+}
+
+.menu-item.Chicken-Puff {
+  background-image: url('chicken puffs.jpg');
+}
+
+.menu-item.Paneer-Puff {
+  background-image: url('paneer puffs.jpeg');
+}
+
+.menu-item.Egg-Puff{
+  background-image: url('egg puffs.png');
+}
+
+
+
+
+
